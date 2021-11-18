@@ -1,0 +1,33 @@
+body
+{
+    background-image: url('../images/bg/pinceaux.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.titre
+{
+    font-family: 'Z003';
+    font-size: 2.3em;
+}
+
+img
+{
+    border-radius: 13px;
+}
+
+.accueil_inscription
+{
+    background-color: rgba(193, 193, 193, 1.0);
+}
+
+.titre
+{
+    font-family: 'Z003';
+    font-size: 2.9em;
+}
+
+section
+{
+    margin-top: 100px;
+}

@@ -1,0 +1,62 @@
+.accueil 
+{
+    color: black;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.accueil:hover 
+{
+    font-weight: bold;
+}
+
+.couleur_header
+{
+    background-color: transparent;
+}
+.couleur_footer{
+    background-color: transparent;
+}
+
+.logo_artizone
+{
+    border-radius: 13px;
+    border: 1px inset white;
+}
+
+.couleur_header
+{
+    background-color: transparent;
+}
+
+.nom_artizone
+{
+    font-family: 'Z003';
+    /*color: rgba(3, 170, 25, 1);*/
+    font-size: 2.3em;
+}
+
+.menu
+{
+    font-size:25px;
+    color:white;
+}
+
+.menu:hover 
+{
+    color: green;
+    font-weight: bold;
+}
+
+body
+{
+    background-image: url('../images/bg/baobab.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.tab 
+{
+    background-color: white;
+}
