@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription</title>
-    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo/logo.ico') }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/inscription.css') }}">
+    <link rel="shortcut icon" href="../assets/images/logo/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/inscription.css">
 </head>
 <body>
 <header class="accueil_inscription fixed-top">
     <div class="container">
         <div class="row">
             <nav class="col navbar navbar-expand-md navbar-light">
-                <img class="logo_ArtiZone shadow mr-3" src="{{ url_for('static', filename='images/logo/logobg.png') }}" alt="ArtiZone'logo" width="120" height="70"> 
+                <img class="logo_ArtiZone shadow mr-3" src="../assets/images/logo/logobg.png" alt="ArtiZone'logo" width="120" height="70"> 
                     <span class="titre text-primary mr-3">ArtiZone</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
@@ -23,7 +23,7 @@
                 <div id="navbarContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Acceuil</a>
+                            <a href="../index.html" class="nav-link">Acceuil</a>
                         </li>           
                         <li class="nav-item">
                             <a href="#" class="nav-link">Artisant</a>
@@ -35,7 +35,7 @@
                             <a href="#" class="nav-link mr-md-5">Catégories</a>
                         </li>
                         <li class="nav-item ml-md-5 active">
-                            <a href="/login" class="btn btn-primary" class="nav-link">Se connecter</a>
+                            <a href="login.html" class="btn btn-primary" class="nav-link">Se connecter</a>
                         </li>                       
                     </ul>
                 </div>
@@ -97,10 +97,9 @@
         </div>
     </div>
 </section>
-<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
-<script type="text/javascript" src="{{ url_for('static', filename='js/popper.js') }}"></script>
-<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
-<script type="text/javascript" src="{{ url_for('static', filename='js/js_inscription.js') }}
-"></script>
+<script type="text/javascript" src="../assets/js/jquery.js"></script>
+<script type="text/javascript" src="../assets/js/popper.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js') }}"></script>
+<script type="text/javascript" src="../assets/js/js_inscription.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- shortcut icon -->
-    <link rel="shortcut icon" href="{{ url_for('static', filename = 'images/logo/logo.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/x-icon">
 
     <title>ArtiZone</title>
     <!-- font awesome -->
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/index.css') }}">    
+    <link rel="stylesheet" href="assets/css/index.css">    
 
 </head>
 <body>
@@ -32,7 +32,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="/">
-                        <img src="{{ url_for('static', filename='images/logo/logo1.png') }}" alt="ArtiZon's logo" width="120" height="70">
+                        <img src="assets/images/logo/logo1.png" alt="ArtiZon's logo" width="120" height="70">
                     </a>
                 </div>
 
@@ -44,7 +44,7 @@
                         <li><a href="#">Artisans</a></li>
                         <li><a href="#">Gallerie</a></li>
                         <li><a href="#">Catégories</a></li>
-                        <li><a href="/login" class="btn btn-primary">Se connecter</a></li>
+                        <li><a href="views/login.html" class="btn btn-primary">Se connecter</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +61,7 @@
 
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="banner" style="background-image: url(static/images/bg/tissage.webp);"></div>
+                    <div class="banner" style="background-image: url(assets/images/bg/tissage.webp);"></div>
                     <div class="carousel-caption">
                         <h2 class="animated bounceInRight mt-5" style="animation-delay: 1s">Bienvenue sur <span>ArtiZone</span></h2>
                         <h3 class="animated bounceInLeft" style="animation-delay: 2s; color: yellow; font-weight:bold">L'artisanat malagasy en un seul endroit</h3>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="banner" style="background-image: url(static/images/bg/raphia.jpg);"></div>
+                    <div class="banner" style="background-image: url(assets/images/bg/raphia.jpg);"></div>
                     <div class="carousel-caption">
                         <h2 class="animated zoomIn" style="animation-delay: 1s">Bienvenue sur <span>ArtiZone</span></h2>
                         <h3 class="animated fadeInUp" style="animation-delay: 2s; color: #15f733; font-weight:bold">Une zone dédiée à vous, créateurs d'arts et à vous amoureux d'arts</h3>
@@ -77,11 +77,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="banner" style="background-image: url(static/images/bg/painture.jpg);"></div>
+                    <div class="banner" style="background-image: url(assets/images/bg/painture.jpg);"></div>
                     <div class="carousel-caption">
                         <h2 class="animated zoomIn" style="animation-delay: 1s">Bienvenue sur <span>ArtiZone</span></h2>
                         <h3 class="animated fadeInLeft" style="animation-delay: 2s; color: white; font-weight:bold">Retrouvez toutes l'expertises et la créativités des artisans malagasy </h3>
-                        <p class="animated zoomIn" style="animation-delay: 3s; hover:background-color:greenyellow"><a href="#" style="text-decoration:none">Gallerie</a></p>
+                        <p class="animated zoomIn" style="animation-delay: 3s; background-color: greenyellow"><a href="#" style="text-decoration:none">Gallerie</a></p>
                     </div>
                 </div>
 
